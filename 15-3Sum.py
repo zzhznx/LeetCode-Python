@@ -7,7 +7,7 @@ class Solution(object):
         result = []
         nums.sort()
         left = 0
-        while left < len(nums) and nums[left] <= 0:
+        while left < len(nums)-2 and nums[left] <= 0:
             # 跳过重复的
             if left > 0 and nums[left] == nums[left - 1]:
                 left += 1

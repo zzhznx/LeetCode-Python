@@ -10,7 +10,7 @@ class Solution(object):
         nums.sort()
         print(nums)
         result = nums[0] + nums[1] + nums[2]
-        for i in range(0, len(nums)-1):
+        for i in range(0, len(nums)-2):
             j = i + 1
             k = len(nums) - 1
             while j < k:
