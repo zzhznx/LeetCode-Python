@@ -11,7 +11,7 @@ class Solution(object):
         return res
 
     def dfs(self, nums, target, index, path, res, k):
-        if target < 0:
+        if target < 0 or len(path) > k:
             return
         if target == 0:
             if len(path) == k:
