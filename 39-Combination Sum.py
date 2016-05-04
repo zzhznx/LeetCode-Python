@@ -20,4 +20,4 @@ class Solution(object):
             self.dfs(nums, target-nums[i], i, path+[nums[i]], res)
 
 solution = Solution()
-print(solution.combinationSum([1, 1, 2], 4))
+print(solution.combinationSum([1, 2], 3))
