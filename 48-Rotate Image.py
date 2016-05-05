@@ -44,7 +44,7 @@ class Solution(object):
         return matrix
 
 solution = Solution()
-print(solution.rotate([[1,2,3],[4,5,6],[7,8,9]]))
-print(solution.rotate_with_zip([[1,2,3],[4,5,6],[7,8,9]]))
-print(solution.anti_rotate([[1,2,3],[4,5,6],[7,8,9]]))
-print(solution.anti_rotate_with_zip([[1,2,3],[4,5,6],[7,8,9]]))
+print(solution.rotate([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+print(solution.rotate_with_zip([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+print(solution.anti_rotate([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+print(solution.anti_rotate_with_zip([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
