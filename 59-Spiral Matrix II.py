@@ -30,4 +30,5 @@ class Solution(object):
 
 
 solution = Solution()
+print(solution.generateMatrix(4))
 print(solution.generateMatrix2(4))
