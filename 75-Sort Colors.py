@@ -1,4 +1,3 @@
-import sys
 class Solution(object):
     def sortColors(self, nums):
         """
