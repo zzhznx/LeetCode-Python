@@ -20,6 +20,5 @@ class Solution(object):
                 high = mid
         return low
 
-
 solution = Solution()
 print(solution.findDuplicate([3, 4, 1, 2, 3]))
