@@ -1,9 +1,5 @@
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+from Tree_zzh import tree
+
 
 class Solution(object):
     def inorderTraversal(self, root):
@@ -38,3 +34,7 @@ class Solution(object):
             self.helper(root.left, res)
             res.append(root.val)
             self.helper(root.right, res)
+
+root = tree.get_one()
+solution = Solution()
+print(solution.inorderTraversal2(root))
