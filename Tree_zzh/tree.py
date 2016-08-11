@@ -132,5 +132,5 @@ def pretty_print(root):
     print(pretty_output.getvalue())
 
 
-root = get_one()
-pretty_print(root)
+#root = get_one()
+#pretty_print(root)

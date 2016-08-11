@@ -6,7 +6,7 @@
 #         self.right = None
 
 class Solution(object):
-    def isBalanced2(self, root):
+    def isBalanced(self, root):
         """
         :type root: TreeNode
         :rtype: bool
@@ -24,7 +24,7 @@ class Solution(object):
         return max(self.depth(root.left), self.depth(root.right))
 
 
-    def isBalanced(self, root):
+    def isBalanced2(self, root):
         """
         :type root: TreeNode
         :rtype: bool
