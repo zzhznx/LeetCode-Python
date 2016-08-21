@@ -7,10 +7,11 @@ class Solution(object):
         j = len(s) - 1
         i = 0
         while i < j:
-            while not s[i].isalpha() and i < j:
+            while not s[i].isalpha() and not s[i].isalnum() and i < j:
                 i += 1
-            while not s[j].isalpha() and i < j:
+            while not s[j].isalpha() and not s[j].isalnum() and i < j:
                 j -= 1
+            print(i, j)
             if s[i].lower() != s[j].lower():
                 return False
             i += 1
@@ -18,4 +19,4 @@ class Solution(object):
         return True
 
 solution = Solution()
-print(solution.isPalindrome("0P"))
+print(solution.isPalindrome("a."))
