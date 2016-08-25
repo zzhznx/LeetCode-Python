@@ -6,7 +6,7 @@ class Solution(object):
         """
         dp = [1 for i in range(len(nums))]
         max = 1
-        for i in range(0, len(nums)-1):
+        for i in range(len(nums)):
             for j in range(0, i):
                 if nums[i] >= nums[j] and (dp[j] + 1) > dp[i]:
                     dp[i] = (dp[j] + 1)
@@ -39,7 +39,8 @@ class Solution(object):
                 dp.append(nums[i])
             else:
                 targetIndex = self.binarySearch(dp, nums[i])
-                dp[targetIndex] = nums[i]
+                if targetIndex != -1:
+                    dp[targetIndex] = nums[i]
         return len(dp)
 
 solution = Solution()
