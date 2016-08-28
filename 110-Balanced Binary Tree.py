@@ -16,7 +16,7 @@ class Solution(object):
         left = self.depth(root.left)
         right = self.depth(root.right)
 
-        return abs(left - right) and self.isBalanced2(root.left) and self.isBalanced2(root.right)
+        return abs(left - right) and self.isBalanced(root.left) and self.isBalanced(root.right)
 
     def depth(self, root):
         if root is None:
