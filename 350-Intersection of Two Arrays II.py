@@ -13,4 +13,4 @@ class Solution(object):
         return reduce(lambda x,y:x+y, [[num] * min(c1[num], c2[num]) for num in c1 & c2], [])
 
 solution = Solution()
-print(solution.intersection([1, 2, 2, 1, 3], [2, 2]))
+print(solution.intersection([1, 2, 2, 2, 1, 3], [2, 2]))
