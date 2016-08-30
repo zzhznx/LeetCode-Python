@@ -24,4 +24,4 @@ class Solution(object):
         return low if nums[low] == target else -1
 
 solution = Solution()
-print(solution.search([5,5,1,3], 3))
+print(solution.search([5,1,3], 3))
