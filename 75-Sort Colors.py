@@ -15,4 +15,4 @@ class Solution(object):
         return nums
 
 solution = Solution()
-print(solution.sortColors([1, 2, 0,1,2]))
+print(solution.sortColors([1, 2, 0, 1, 2]))

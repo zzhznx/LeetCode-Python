@@ -16,6 +16,6 @@ class Solution(object):
         return nums[start]
 
 solution = Solution()
-print(solution.findMin([4, 5, 6, 0, 1, 2, 3, 3]))
-print(solution.findMin([10, 1, 10, 10, 10]))
+print(solution.findMin([4, 5, 6, 0, 1, 2, 3]))
+print(solution.findMin([10, 1, 2, 3, 4]))
 
